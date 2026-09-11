@@ -1,0 +1,10 @@
+{
+  "versionCode": 47,
+  "versionName": "7.73",
+  "apkUrl": "https://ijw90000.github.io/daming-wms-release/daming-warehouse-v7.73.apk",
+  "pageUrl": "https://ijw90000.github.io/daming-wms-release/",
+  "size": 5757558,
+  "sha256": "819adaa45ecd5c50fede570a419a652ffe24150a2156d76f7c4d3a13093bf6a2",
+  "date": "2026-09-11",
+  "changelog": "1. 修复隐私锁检测误报：组合探测成功时误显示为人脸/指纹可用，现已准确区分。\n2. 只有锁屏密码可用时，解锁弹窗如实显示「验证本机锁屏密码」。\n3. 其余功能不变，覆盖安装即可。"
+}
