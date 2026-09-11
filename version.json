@@ -1,10 +1,10 @@
 {
-  "versionCode": 48,
-  "versionName": "7.74",
-  "apkUrl": "https://ijw90000.github.io/daming-wms-release/daming-warehouse-v7.74.apk",
+  "versionCode": 49,
+  "versionName": "7.75",
+  "apkUrl": "https://ijw90000.github.io/daming-wms-release/daming-warehouse-v7.75.apk",
   "pageUrl": "https://ijw90000.github.io/daming-wms-release/",
-  "size": 5757994,
-  "sha256": "ec174a8a05b660ba6a68c4cbc4cf3698da8c2e5cb8cd106b43a3287243a0961b",
+  "size": 5757970,
+  "sha256": "4830b90cc04c6a5d3f88f77b170800e8cf7df068f32b2294e8e9f75bb3095fad",
   "date": "2026-09-11",
-  "changelog": "1. 更新与下载源迁移到 GitHub 公开仓库，长期稳定不休眠。\n2. 版本检查按 6 个源同时查询、取最高版本号，任一源有新版即可提醒。\n3. 其余功能不变，覆盖安装即可。"
+  "changelog": "1. 更新与下载源优化：自有域名 kg.vi.gs（Cloudflare Pages）设为下载优先源，国内下载更快更稳定；GitHub 公开仓库继续作主兜底，多源取最高版本号提醒不变。\n2. 其余功能不变，覆盖安装即可，数据不丢失。"
 }
