@@ -1,10 +1,10 @@
 {
-  "versionCode": 52,
-  "versionName": "7.87",
-  "apkUrl": "https://ijw90000.github.io/daming-wms-release/daming-warehouse-v7.87.apk",
+  "versionCode": 53,
+  "versionName": "7.88",
+  "apkUrl": "https://ijw90000.github.io/daming-wms-release/daming-warehouse-v7.88.apk",
   "pageUrl": "https://ijw90000.github.io/daming-wms-release/",
-  "size": 5774874,
-  "sha256": "fa78ccbda3941853d17efbc3d9eb7012b1dfab20be69bda98f589327eb37419d",
+  "size": 5774978,
+  "sha256": "e577cf8f5e0209097f6c96562f877562d9f8980a5d513b641c790e2dea8a059d",
   "date": "2026-09-13",
-  "changelog": "1. 修复安卓「检查新版本」偶发失败：多源检查时某个候选域名解析失败会中断整个流程，现已隔离单源异常，手动检查稳定可用。\n2. 导出列三端对齐：物资档案导出统一为 12 列（编码/名称/规格/单位/分类/单价/默认仓库/预警值/位置/创建时间/实时总库存/预警状态），补齐 iOS 与电脑版此前缺失的「单价」列。\n3. 全端功能核查：工具借还、检查新版本、台账 13 列导出、删除密码、盘点差异语义等，安卓 / iOS / 电脑版三端一致。\n4. 覆盖安装即可，数据不丢失。"
+  "changelog": "1. 安卓「物资主数据」切换卡顿修复：去掉进入页面时的重复刷新（原 onCreateView 与 onResume 各刷一次，叠加为一次），并把列表里逐个物资查仓库名的 N+1 查询改为一次性取仓库名映射，底部导航切到「物资」更跟手。\n2. 修复安卓「检查新版本」偶发失败（v7.87）：多源检查时某个候选域名解析失败会中断整个流程，现已隔离单源异常，手动检查稳定可用。\n3. 其余功能与 v7.87 一致，覆盖安装即可，数据不丢失。"
 }
