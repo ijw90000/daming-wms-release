@@ -1,10 +1,10 @@
 {
-  "versionCode": 51,
-  "versionName": "7.86",
-  "apkUrl": "https://ijw90000.github.io/daming-wms-release/daming-warehouse-v7.86.apk",
+  "versionCode": 52,
+  "versionName": "7.87",
+  "apkUrl": "https://ijw90000.github.io/daming-wms-release/daming-warehouse-v7.87.apk",
   "pageUrl": "https://ijw90000.github.io/daming-wms-release/",
-  "size": 5774586,
-  "sha256": "88e9235382da2e2f21ade569f313a5d6d51714d6d71822113d0eed139c6c5cdd",
+  "size": 5774874,
+  "sha256": "fa78ccbda3941853d17efbc3d9eb7012b1dfab20be69bda98f589327eb37419d",
   "date": "2026-09-13",
-  "changelog": "1. 首页「数据安全」卡片新增「检查新版本」按钮，点击即检查是否有新版本（拉主站 version.json 取最高版本号），发现新版本可直接前往下载页。\n2. 已是最新时提示「已是最新版本」，检查失败给出明确原因。\n3. 覆盖安装即可，数据不丢失。"
+  "changelog": "1. 修复安卓「检查新版本」偶发失败：多源检查时某个候选域名解析失败会中断整个流程，现已隔离单源异常，手动检查稳定可用。\n2. 导出列三端对齐：物资档案导出统一为 12 列（编码/名称/规格/单位/分类/单价/默认仓库/预警值/位置/创建时间/实时总库存/预警状态），补齐 iOS 与电脑版此前缺失的「单价」列。\n3. 全端功能核查：工具借还、检查新版本、台账 13 列导出、删除密码、盘点差异语义等，安卓 / iOS / 电脑版三端一致。\n4. 覆盖安装即可，数据不丢失。"
 }
