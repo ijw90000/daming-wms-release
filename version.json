@@ -1,10 +1,10 @@
 {
-  "versionCode": 53,
-  "versionName": "7.88",
-  "apkUrl": "https://ijw90000.github.io/daming-wms-release/daming-warehouse-v7.88.apk",
+  "versionCode": 54,
+  "versionName": "7.89",
+  "apkUrl": "https://ijw90000.github.io/daming-wms-release/daming-warehouse-v7.89.apk",
   "pageUrl": "https://ijw90000.github.io/daming-wms-release/",
-  "size": 5774978,
-  "sha256": "e577cf8f5e0209097f6c96562f877562d9f8980a5d513b641c790e2dea8a059d",
+  "size": 5775638,
+  "sha256": "d7617f82f56ae02025c29a74933f6d2906629bbacfdd18853d7b029ad26a6a15",
   "date": "2026-09-13",
-  "changelog": "1. 安卓「物资主数据」切换卡顿修复：去掉进入页面时的重复刷新（原 onCreateView 与 onResume 各刷一次，叠加为一次），并把列表里逐个物资查仓库名的 N+1 查询改为一次性取仓库名映射，底部导航切到「物资」更跟手。\n2. 修复安卓「检查新版本」偶发失败（v7.87）：多源检查时某个候选域名解析失败会中断整个流程，现已隔离单源异常，手动检查稳定可用。\n3. 其余功能与 v7.87 一致，覆盖安装即可，数据不丢失。"
+  "changelog": "1. 修复「工具借还」不显示仓库：工具所属仓库取该物资的「默认仓库」，借出登记页、未归还 / 借还明细列表、归还弹窗与借还明细弹窗均显示仓库。\n2. 修复台账导出（CSV / Excel）中「工具借出 / 工具归还」行的「仓库」列为空：现导出真实仓库名；历史旧记录缺少仓库时自动回落到该物资的默认仓库。\n3. 电脑版 / iOS 网页版同步修复，三端版本号统一为 v7.89。覆盖安装即可，数据不丢失。"
 }
