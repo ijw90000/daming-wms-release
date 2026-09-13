@@ -3,7 +3,9 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>大明智仓管家 v7.75 · 下载</title>
+<link rel="icon" type="image/png" href="ios/icon-192.png">
+<link rel="apple-touch-icon" href="ios/apple-touch-icon.png">
+<title>大明智仓管家 v7.86 · 下载</title>
 <style>
   :root{
     --bg:#f5f7fa; --card:#ffffff; --ink:#1f2937; --sub:#6b7280;
@@ -53,37 +55,56 @@
 
   <div class="card">
     <h1>大明智仓管家</h1>
-    <span class="ver">v7.75 · 正式版</span>
+    <span class="ver">v7.86 · 正式版</span>
     <p class="contact"><b>电话：18571090000</b><span class="sep">|</span><b>微信：nftscj</b></p>
-    <p class="desc">更新与下载源优化：下载默认走自有域名 kg.vi.gs（Cloudflare Pages，国内更快更稳定），GitHub 公开仓库作主兜底，多源取最高版本号提醒不变。</p>
+    <p class="desc">新增「仓库工具借还」：工具借出、归还只登记台账明细，<b>完全不占用库存</b>；台账可按工具筛选，借出未还一目了然。安卓 / iOS / 电脑三端同步更新。</p>
 
-    <a class="btn" href="daming-warehouse-v7.75.apk">下载 APK（5.49 MB）</a>
+    <a class="btn" href="daming-warehouse-v7.86.apk">下载 APK（5.51 MB）</a>
 
     <div class="meta">
       <table>
-        <tr><td>版本</td><td>7.75（versionCode 49）</td></tr>
-        <tr><td>文件大小</td><td>5,757,970 字节 · 约 5.49 MB</td></tr>
-        <tr><td>更新日期</td><td>2026-09-11</td></tr>
+        <tr><td>版本</td><td>7.85（versionCode 50）</td></tr>
+        <tr><td>文件大小</td><td>5,774,298 字节 · 约 5.51 MB</td></tr>
+        <tr><td>更新日期</td><td>2026-09-13</td></tr>
         <tr><td>系统要求</td><td>Android 7.0 及以上</td></tr>
         <tr><td>包名</td><td>com.zhicanggj.app</td></tr>
-        <tr><td>SHA-256</td><td class="sha">4830b90cc04c6a5d3f88f77b170800e8cf7df068f32b2294e8e9f75bb3095fad</td></tr>
+        <tr><td>SHA-256</td><td class="sha">8c3032353c49387ef5db0c923247090b703f7cb46a5973489cb838ad2db06409</td></tr>
       </table>
     </div>
   </div>
 
+  <div class="card" style="border-color:#a7f3d0;background:#f0fdf4">
+    <h2>📱 iPhone / iOS 用户</h2>
+    <p class="desc">没有 Android 也能用：打开下方链接，在 Safari 中点「分享 → 添加到主屏幕」，即可获得一个不占空间、数据存在本机的网页版仓库管家。</p>
+    <a class="btn" href="ios/" style="background:#059669">打开 iOS 版（PWA）</a>
+    <p class="meta" style="margin-top:10px">功能与 Android 版持续对齐（现已同步至 v7.86）：物资/仓库档案、出入库、调拨、废旧、<b>工具借还</b>、台账、查询、库存预警，全部本地存储。</p>
+  </div>
+
+<!-- PC-CARD:BEGIN -->
+<div class="card" id="pc" style="border-color:#bfdbfe;background:#eff6ff">
+  <h2>💻 Windows 电脑用户</h2>
+  <p class="desc">PC 版功能与安卓版保持同一套代码基（含隐私锁、盘点、台账报表、工具借还与各类查询），数据存在本机，可随时导出 JSON 备份。</p>
+  <a class="btn" href="https://github.com/ijw90000/daming-wms-release/releases/download/pc-v7.86/daming-wms-pc-v7.86-win64.exe">下载 Windows 版（Win 7 / 8 / 10 / 11 · 绿色免安装）（60 MB）</a>
+  <a class="btn" href="https://github.com/ijw90000/daming-wms-release/releases/download/pc-v7.86/daming-wms-pc-v7.86-win64.zip" style="background:#2563eb;margin-top:10px">下载 Windows 解压版（启动更快，可放共享盘）（90 MB）</a>
+  <p class="meta" style="margin-top:12px">版本 7.86 · 2026-09-13</p>
+  <p class="meta">Windows 版为绿色免安装单文件，双击即用，无需安装、不写注册表；解压版启动更快，适合放到共享盘。也可以直接在浏览器里用：<a href="pc/" style="color:var(--brand-dark);font-weight:600">打开 PC 网页版</a>。</p>
+  <p class="meta">全部安装包：<a href="https://github.com/ijw90000/daming-wms-release/releases/tag/pc-v7.86" style="color:var(--brand-dark);font-weight:600">GitHub Release 页面</a></p>
+</div>
+<!-- PC-CARD:END -->
+
   <div class="card">
-    <h2>v7.75 本次更新</h2>
+    <h2>v7.86 本次更新</h2>
     <ul>
-      <li><b>更新与下载源优化</b>：自有域名 kg.vi.gs（Cloudflare Pages）设为下载优先源，国内下载更快更稳定；GitHub 公开仓库继续作主兜底。</li>
-      <li>版本检查仍同时查询多个源、取最高版本号，任一源有新版都能提醒；版本号相同时优先从 kg.vi.gs 下载。</li>
+      <li><b>新增「检查新版本」入口</b>：首页「数据安全」卡片底部新增按钮，点击即检查是否有新版本（安卓 / iOS 拉主站 version.json，PC 拉 pc-version.json），发现新版本可直接前往下载页；已是最新时提示「已是最新版本」，检查失败给出明确原因。</li>
+      <li><b>三端同步</b>：安卓版、iOS 网页版、电脑（PC）版功能与版本号一致，均为 v7.86；导出的数据在三端之间可互相导入。</li>
       <li>其余功能不变，<b>覆盖安装即可，数据不丢失</b>。</li>
     </ul>
   </div>
 
   <div class="card">
-    <h2>当前版本（v7.75）全部功能</h2>
+    <h2>当前版本（v7.86）全部功能</h2>
 
-    <div class="grp">一、隐私与安全（新）</div>
+    <div class="grp">一、隐私与安全</div>
     <ul>
       <li>隐私锁：数字密码 / 九宫格手势 / 本机人脸指纹，三选一或组合使用。</li>
       <li>打开 App、从后台切回均需解锁验证；解锁页按返回不会绕过，只会退回桌面。</li>
@@ -120,7 +141,16 @@
       <li>支持处置原因、备注、操作时间；处理前校验库存。</li>
     </ul>
 
-    <div class="grp">六、查询与统计</div>
+    <div class="grp">六、仓库工具借还（新）</div>
+    <ul>
+      <li>业务页新增「🔧 工具借还」入口，内分「借出登记 / 未归还 / 借还明细」三个标签页。</li>
+      <li>借出登记：选择工具物资（<b>零库存也能选</b>，因为工具不占库存）、填写借出数量、借用人、借用单位、经手人、借用事由与时间；借用人为 王刚 / 王俊健 / 何亚博 / 程国栋 / 潘家乐 时自动默认 87km。</li>
+      <li>归还销账：支持一次借出分多次归还，归还时自动校验「归还数量不得超过未归还数量」；同一次借出与它的所有归还共用同一个<b>借还单号</b>。</li>
+      <li><b>不占用库存</b>：借出、归还全程只写台账明细，物资库存数量不变，也不会被计入出入库统计。</li>
+      <li>未归还列表按借出时间倒序，直接显示「已借出 / 已归还 / 未归还」三列数量，点「归还」即可销账，点「明细」查看该单完整历史。</li>
+    </ul>
+
+    <div class="grp">七、查询与统计</div>
     <ul>
       <li>物资查询：一级仓库筛选（选定后只显示该仓有库存的物资）+ 二级位置筛选；不显示零库存物资；点击物资查看历史领取记录。</li>
       <li>库存查询：一级仓库 + 二级位置组合筛选，不显示零库存记录，结果按 仓库 → 位置 → 名称 自然升序。</li>
@@ -128,21 +158,24 @@
       <li>领用统计：按领用人聚合，累计数量倒序排名，可查看明细，支持关键字筛选。</li>
     </ul>
 
-    <div class="grp">七、盘点</div>
+    <div class="grp">八、盘点</div>
     <ul>
       <li>按仓库分组盘点，系统库存与实际数量对比显示差异（带单位），支持盘点历史查询。</li>
     </ul>
 
-    <div class="grp">八、台账与报表</div>
+    <div class="grp">九、台账与报表</div>
     <ul>
-      <li>台账每行显示「类型 · 仓库 · 位置 · 经手人」；<b>所有类型记录都在数量下方显示该物资总库存，出库行显示剩余库存</b>；支持修改业务发生时间。</li>
+      <li>台账筛选标签：全部 / 入库 / 出库 / 调拨 / 废旧 / 盘点 / <b>工具借还</b>；工具标签下同时包含借出与归还两类记录。</li>
+      <li>台账搜索支持中文关键字（如「工具」「借还」「借出」「归还」）与借还单号（如 #3）。</li>
+      <li>每行显示「类型 · 仓库 · 位置 · 经手人」；工具借还行显示「类型 · 借用人 X · 经手人 Y」，数量下方标注「<b>不占用库存（当前总库存 X）</b>」。</li>
+      <li><b>所有类型记录都在数量下方显示该物资总库存，出库行显示剩余库存</b>；支持修改业务发生时间。</li>
       <li>台账按时间倒序，最新记录在最上面；同一时间戳的多条记录按录入先后排列，最后录入的在最上面。</li>
-      <li>台账导出 CSV / Excel：含「位置」（仓库旁）与「当前库存」（数量旁）列；按时间倒序；已删除物资档案的记录不导出。</li>
+      <li>台账导出 CSV / Excel：含「位置」（仓库旁）与「当前库存」（数量旁）列；工具借还记录的位置列标注「不占用库存」；按时间倒序；已删除物资档案的记录不导出。</li>
       <li>一键生成日报 / 周报 / 月报（按日期聚合台账），导出 Excel。</li>
       <li>物资档案 / 实时库存与预警可导出 Excel，表头与 App 内口径一致（「位置」列、预警值）。</li>
     </ul>
 
-    <div class="grp">九、数据安全与更新</div>
+    <div class="grp">十、数据安全与更新</div>
     <ul>
       <li>数据库备份 / 还原，备份文件保存在 内部存储/Download/大明智仓管家/（公共目录，文件管理器可见）。</li>
       <li>邮件自动备份分类定时：每日 数据库+物资档案+台账日报；每周一 台账周报；每月 1 号 台账月报，到期合并一封邮件发送到指定邮箱。</li>
@@ -150,11 +183,11 @@
       <li>旧版备份还原后自动补齐数据库结构，不闪退。</li>
     </ul>
 
-    <div class="grp">十、全局体验</div>
+    <div class="grp">十一、全局体验</div>
     <ul>
       <li>全 App 数量显示统一带单位。</li>
       <li>全 App 仓库与位置统一自然升序（A2 在 A10 前；中文数字按数值排序）。</li>
-      <li>全 App 搜索结果不显示库存为 0 的物资（入库与档案管理除外）。</li>
+      <li>全 App 搜索结果不显示库存为 0 的物资（入库与档案管理除外；<b>工具借还选择工具时不限制库存</b>）。</li>
       <li>首页右上角版本号可查看更新日志。</li>
     </ul>
   </div>
@@ -162,14 +195,14 @@
   <div class="card">
     <h2>安装说明</h2>
     <div class="tip">
-      <b>升级安装：</b>已装 v4.0 及以上旧版的用户直接覆盖安装即可，<b>原有数据不会丢失</b>，数据库会自动升级到最新结构。<br><br>
+      <b>升级安装：</b>已装 v4.0 及以上旧版的用户直接覆盖安装即可，<b>原有数据不会丢失</b>，数据库会自动升级到最新结构（新增的工具借还记录会保存在全新的台账类型里，不影响原有库存与统计）。<br><br>
       <b>首次安装需授权：</b>下载后点击 APK，若系统提示「未知来源应用」，请在弹窗中允许来自此来源的安装（不同机型路径略有差异：设置 → 安全/隐私 → 安装未知应用），授权后即可正常安装。<br><br>
       <b>说明：</b>v7.37 及更早版本内置的更新检查地址已失效，无法自动弹出提示，请用本页链接手动安装一次新版本；装好之后，后续新版本就能自动提醒、自动下载安装了。<br><br>
       <b>稳妥做法：</b>安装前可先在 App 内「数据管理 → 备份数据库」，备份文件保存在 内部存储/Download/大明智仓管家/。
     </div>
   </div>
 
-  <div class="foot">大明智仓管家 v7.75 · 2026-09-11 构建 · 电话 18571090000 微信 nftscj</div>
+  <div class="foot">大明智仓管家 v7.86 · 2026-09-13 构建 · 电话 18571090000 微信 nftscj</div>
 </div>
 </body>
 </html>
