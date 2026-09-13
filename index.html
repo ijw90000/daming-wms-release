@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <link rel="icon" type="image/png" href="ios/icon-192.png">
 <link rel="apple-touch-icon" href="ios/apple-touch-icon.png">
-<title>大明智仓管家 v7.86 · 下载</title>
+<title>大明智仓管家 v7.87 · 下载</title>
 <style>
   :root{
     --bg:#f5f7fa; --card:#ffffff; --ink:#1f2937; --sub:#6b7280;
@@ -55,11 +55,11 @@
 
   <div class="card">
     <h1>大明智仓管家</h1>
-    <span class="ver">v7.86 · 正式版</span>
+    <span class="ver">v7.87 · 正式版</span>
     <p class="contact"><b>电话：18571090000</b><span class="sep">|</span><b>微信：nftscj</b></p>
     <p class="desc">新增「仓库工具借还」：工具借出、归还只登记台账明细，<b>完全不占用库存</b>；台账可按工具筛选，借出未还一目了然。安卓 / iOS / 电脑三端同步更新。</p>
 
-    <a class="btn" href="daming-warehouse-v7.86.apk">下载 APK（5.51 MB）</a>
+    <a class="btn" href="daming-warehouse-v7.87.apk">下载 APK（5.51 MB）</a>
 
     <div class="meta">
       <table>
@@ -77,32 +77,34 @@
     <h2>📱 iPhone / iOS 用户</h2>
     <p class="desc">没有 Android 也能用：打开下方链接，在 Safari 中点「分享 → 添加到主屏幕」，即可获得一个不占空间、数据存在本机的网页版仓库管家。</p>
     <a class="btn" href="ios/" style="background:#059669">打开 iOS 版（PWA）</a>
-    <p class="meta" style="margin-top:10px">功能与 Android 版持续对齐（现已同步至 v7.86）：物资/仓库档案、出入库、调拨、废旧、<b>工具借还</b>、台账、查询、库存预警，全部本地存储。</p>
+    <p class="meta" style="margin-top:10px">功能与 Android 版持续对齐（现已同步至 v7.87）：物资/仓库档案、出入库、调拨、废旧、<b>工具借还</b>、台账、查询、库存预警，全部本地存储。</p>
   </div>
 
 <!-- PC-CARD:BEGIN -->
 <div class="card" id="pc" style="border-color:#bfdbfe;background:#eff6ff">
   <h2>💻 Windows 电脑用户</h2>
   <p class="desc">PC 版功能与安卓版保持同一套代码基（含隐私锁、盘点、台账报表、工具借还与各类查询），数据存在本机，可随时导出 JSON 备份。</p>
-  <a class="btn" href="https://github.com/ijw90000/daming-wms-release/releases/download/pc-v7.86/daming-wms-pc-v7.86-win64.exe">下载 Windows 版（Win 7 / 8 / 10 / 11 · 绿色免安装）（60 MB）</a>
-  <a class="btn" href="https://github.com/ijw90000/daming-wms-release/releases/download/pc-v7.86/daming-wms-pc-v7.86-win64.zip" style="background:#2563eb;margin-top:10px">下载 Windows 解压版（启动更快，可放共享盘）（90 MB）</a>
-  <p class="meta" style="margin-top:12px">版本 7.86 · 2026-09-13</p>
+  <a class="btn" href="https://github.com/ijw90000/daming-wms-release/releases/download/pc-v7.87/daming-wms-pc-v7.87-win64.exe">下载 Windows 版（Win 7 / 8 / 10 / 11 · 绿色免安装）（60 MB）</a>
+  <a class="btn" href="https://github.com/ijw90000/daming-wms-release/releases/download/pc-v7.87/daming-wms-pc-v7.87-win64.zip" style="background:#2563eb;margin-top:10px">下载 Windows 解压版（启动更快，可放共享盘）（90 MB）</a>
+  <p class="meta" style="margin-top:12px">版本 7.87 · 2026-09-13</p>
   <p class="meta">Windows 版为绿色免安装单文件，双击即用，无需安装、不写注册表；解压版启动更快，适合放到共享盘。也可以直接在浏览器里用：<a href="pc/" style="color:var(--brand-dark);font-weight:600">打开 PC 网页版</a>。</p>
-  <p class="meta">全部安装包：<a href="https://github.com/ijw90000/daming-wms-release/releases/tag/pc-v7.86" style="color:var(--brand-dark);font-weight:600">GitHub Release 页面</a></p>
+  <p class="meta">全部安装包：<a href="https://github.com/ijw90000/daming-wms-release/releases/tag/pc-v7.87" style="color:var(--brand-dark);font-weight:600">GitHub Release 页面</a></p>
 </div>
 <!-- PC-CARD:END -->
 
   <div class="card">
-    <h2>v7.86 本次更新</h2>
+    <h2>v7.87 本次更新</h2>
     <ul>
-      <li><b>新增「检查新版本」入口</b>：首页「数据安全」卡片底部新增按钮，点击即检查是否有新版本（安卓 / iOS 拉主站 version.json，PC 拉 pc-version.json），发现新版本可直接前往下载页；已是最新时提示「已是最新版本」，检查失败给出明确原因。</li>
-      <li><b>三端同步</b>：安卓版、iOS 网页版、电脑（PC）版功能与版本号一致，均为 v7.86；导出的数据在三端之间可互相导入。</li>
+      <li><b>修复安卓「检查新版本」偶发失败</b>：多源检查时某个候选域名解析失败会中断整个流程，现已隔离单源异常，手动检查稳定可用（iOS / PC 不受影响，本来即正常）。</li>
+      <li><b>导出列三端对齐</b>：物资档案导出统一为 12 列（编码 / 名称 / 规格 / 单位 / 分类 / <b>单价</b> / 默认仓库 / 预警值 / 位置 / 创建时间 / 实时总库存 / 预警状态），补齐 iOS 与电脑版此前缺失的「单价」列。</li>
+      <li><b>全端功能核查</b>：工具借还、检查新版本、台账 13 列导出、删除密码、盘点差异语义等，安卓 / iOS / 电脑版三端一致。</li>
+      <li><b>三端同步</b>：安卓版、iOS 网页版、电脑（PC）版功能与版本号一致，均为 v7.87；导出的数据在三端之间可互相导入。</li>
       <li>其余功能不变，<b>覆盖安装即可，数据不丢失</b>。</li>
     </ul>
   </div>
 
   <div class="card">
-    <h2>当前版本（v7.86）全部功能</h2>
+    <h2>当前版本（v7.87）全部功能</h2>
 
     <div class="grp">一、隐私与安全</div>
     <ul>
@@ -202,7 +204,7 @@
     </div>
   </div>
 
-  <div class="foot">大明智仓管家 v7.86 · 2026-09-13 构建 · 电话 18571090000 微信 nftscj</div>
+  <div class="foot">大明智仓管家 v7.87 · 2026-09-13 构建 · 电话 18571090000 微信 nftscj</div>
 </div>
 </body>
 </html>
