@@ -1,10 +1,10 @@
 {
-  "versionCode": 50,
-  "versionName": "7.85",
-  "apkUrl": "https://ijw90000.github.io/daming-wms-release/daming-warehouse-v7.85.apk",
+  "versionCode": 51,
+  "versionName": "7.86",
+  "apkUrl": "https://ijw90000.github.io/daming-wms-release/daming-warehouse-v7.86.apk",
   "pageUrl": "https://ijw90000.github.io/daming-wms-release/",
-  "size": 5774298,
-  "sha256": "8c3032353c49387ef5db0c923247090b703f7cb46a5973489cb838ad2db06409",
+  "size": 5774586,
+  "sha256": "88e9235382da2e2f21ade569f313a5d6d51714d6d71822113d0eed139c6c5cdd",
   "date": "2026-09-13",
-  "changelog": "1. 新增「工具借还」：业务页新增入口，可登记工具借出与归还，支持一次借出分多次归还，自动记录借还单号。\n2. 工具借还【不占用库存】：借出、归还只登记台账明细，物资库存数量完全不受影响。\n3. 台账新增「工具」筛选：可按物资 / 借用人 / 借用单位搜索工具借出与归还明细，借出未还数量一目了然。\n4. 台账卡片对工具借还明确标注「不占用库存」，并显示该物资当前总库存作参考。\n5. 三端同步：安卓、iOS 网页版、电脑（PC）版功能与版本号一致，均为 v7.85。\n6. 覆盖安装即可，数据不丢失。"
+  "changelog": "1. 首页「数据安全」卡片新增「检查新版本」按钮，点击即检查是否有新版本（拉主站 version.json 取最高版本号），发现新版本可直接前往下载页。\n2. 已是最新时提示「已是最新版本」，检查失败给出明确原因。\n3. 覆盖安装即可，数据不丢失。"
 }
