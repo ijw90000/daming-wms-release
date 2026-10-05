@@ -1,11 +1,11 @@
 {
-  "versionCode": 101,
-  "versionName": "10.4",
-  "apkUrl": "https://ijw90000.github.io/daming-wms-release/daming-warehouse-v10.4.apk",
+  "versionCode": 102,
+  "versionName": "10.41",
+  "apkUrl": "https://ijw90000.github.io/daming-wms-release/daming-warehouse-v10.41.apk",
   "pageUrl": "https://ijw90000.github.io/daming-wms-release/",
-  "size": 6123554,
-  "sha256": "62361daaf928b8fe47257c5c70e55fa1aba7cff917a47faef6d8ea09631670b4",
+  "size": 6124474,
+  "sha256": "a0828218f183ce1d90fba2271f194a0825d816bc512de382efe45fb1a3d09e99",
   "date": "2026-10-05",
-  "changelog": "v10.4 全量多语言翻译：语言包词条由 102 条核心词扩充到 859 条，覆盖入库 / 出库 / 调拨 / 废旧 / 盘点 / 台账 / 物资 / 工具借还 / 回收站 / 报表 / 设置 / 登录 / 表单 / 空态 / 状态等全部界面文案，深屏业务页也随账号切换语言；安卓端采用零侵入式 View 树遍历翻译，全站界面（含 Toast 浮层）切换语言即时生效。简体中文内置 + 繁体中文 / 英语 / 日语 / 韩语 / 越南语 / 泰语 / 法语 / 德语 / 俄语共 9 种在线语言包；设置 → 🌐 语言 切换即时生效、随账号持久化、含后台页面全站自动换语言；语言包不内置、不占安装包体积。安卓 / iOS / PC 网页版 / PC 绿色版 EXE 四端一致。",
-  "version": "10.4"
+  "changelog": "v10.41 修复切换英文（及其他语言）后界面没全量翻译：上一版语言包 859 条里 508 条在 9 种语言中都是中文占位，切英文后首页 / 底部导航 / 业务页大量文案仍是中文；本版补齐 441 条界面文案真译文并剔除人名、物资示例名等数据值。安卓端翻译由整段精确匹配升级为子串最长匹配，可覆盖「物资 12 种 · 台账 30 条」这类拼接文案；语言包缓存带版本号，升级后自动重新下载，无需手动清缓存。四端一致。",
+  "version": "10.41"
 }
