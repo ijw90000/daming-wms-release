@@ -1,11 +1,11 @@
 {
-  "versionCode": 102,
-  "versionName": "10.41",
-  "apkUrl": "https://ijw90000.github.io/daming-wms-release/daming-warehouse-v10.41.apk",
+  "versionCode": 103,
+  "versionName": "10.5",
+  "apkUrl": "https://ijw90000.github.io/daming-wms-release/daming-warehouse-v10.5.apk",
   "pageUrl": "https://ijw90000.github.io/daming-wms-release/",
-  "size": 6124474,
-  "sha256": "a0828218f183ce1d90fba2271f194a0825d816bc512de382efe45fb1a3d09e99",
+  "size": 6131572,
+  "sha256": "6e7fe2f7e98f57bd2df5fb687d332eb042674c9350bb368cce8939c93cd177dd",
   "date": "2026-10-05",
-  "changelog": "v10.41 修复切换英文（及其他语言）后界面没全量翻译：上一版语言包 859 条里 508 条在 9 种语言中都是中文占位，切英文后首页 / 底部导航 / 业务页大量文案仍是中文；本版补齐 441 条界面文案真译文并剔除人名、物资示例名等数据值。安卓端翻译由整段精确匹配升级为子串最长匹配，可覆盖「物资 12 种 · 台账 30 条」这类拼接文案；语言包缓存带版本号，升级后自动重新下载，无需手动清缓存。四端一致。",
-  "version": "10.41"
+  "changelog": "v10.5「关于我们」新增「全部功能介绍」：按 16 个模块列出当前版本的全部功能，共 72 条功能说明（隐私安全、物资与仓库档案、出入库点验、调拨、废旧、工具借还、查询统计、盘点、台账与报表、数据安全与更新、库存健康、数据治理与追溯、全局体验、账号与权限、界面自适应、搜索口径），与发布页同源同步；文案随语言包翻译，切语言即时生效。功能清单内置于应用，离线也能查看。四端一致。",
+  "version": "10.5"
 }
