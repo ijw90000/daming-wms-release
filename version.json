@@ -1,11 +1,10 @@
 {
-  "versionCode": 103,
-  "versionName": "10.5",
-  "apkUrl": "https://ijw90000.github.io/daming-wms-release/daming-warehouse-v10.5.apk",
+  "versionCode": 144,
+  "versionName": "11.20",
+  "apkUrl": "https://ijw90000.github.io/daming-wms-release/daming-warehouse-v11.20.apk",
   "pageUrl": "https://ijw90000.github.io/daming-wms-release/",
-  "size": 6131572,
-  "sha256": "6e7fe2f7e98f57bd2df5fb687d332eb042674c9350bb368cce8939c93cd177dd",
-  "date": "2026-10-05",
-  "changelog": "v10.5「关于我们」新增「全部功能介绍」：按 16 个模块列出当前版本的全部功能，共 72 条功能说明（隐私安全、物资与仓库档案、出入库点验、调拨、废旧、工具借还、查询统计、盘点、台账与报表、数据安全与更新、库存健康、数据治理与追溯、全局体验、账号与权限、界面自适应、搜索口径），与发布页同源同步；文案随语言包翻译，切语言即时生效。功能清单内置于应用，离线也能查看。四端一致。",
-  "version": "10.5"
+  "size": 6159716,
+  "sha256": "4181ff0d5b9604276a927b7011a9cb0f2de7db6f6961442beebbbfa6d4acdaa8",
+  "date": "2026-10-19",
+  "changelog": "v11.20：搜索站搜索结果为「工具」分类的物资时，每条结果卡片新增一行「🔧 剩余可借」数量——取自台账，按「总库存 − 全部未归还合计」计算（负数按 0），与 App 内工具借还口径完全一致；非工具类物资不显示该行。数据由安卓端推送，需升到 v11.20 后同步方可生效。四端一致，覆盖安装即可，业务数据不丢失。"
 }
