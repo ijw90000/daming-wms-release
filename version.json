@@ -1,10 +1,10 @@
 {
-  "versionCode": 144,
-  "versionName": "11.20",
-  "apkUrl": "https://ijw90000.github.io/daming-wms-release/daming-warehouse-v11.20.apk",
+  "versionCode": 146,
+  "versionName": "11.22",
+  "apkUrl": "https://ijw90000.github.io/daming-wms-release/daming-warehouse-v11.22.apk",
   "pageUrl": "https://ijw90000.github.io/daming-wms-release/",
-  "size": 6159716,
-  "sha256": "4181ff0d5b9604276a927b7011a9cb0f2de7db6f6961442beebbbfa6d4acdaa8",
-  "date": "2026-10-19",
-  "changelog": "v11.20：搜索站搜索结果为「工具」分类的物资时，每条结果卡片新增一行「🔧 剩余可借」数量——取自台账，按「总库存 − 全部未归还合计」计算（负数按 0），与 App 内工具借还口径完全一致；非工具类物资不显示该行。数据由安卓端推送，需升到 v11.20 后同步方可生效。四端一致，覆盖安装即可，业务数据不丢失。"
+  "size": 6160940,
+  "sha256": "6b661a849710b3998ba662f608cf2a015085e1d79d56ca7750f7537811267ecc",
+  "date": "2026-10-20",
+  "changelog": "v11.22：①搜索站「工具」分类物资结果卡片新增「👤 未还借用人」名单（按台账借出未还记录列出姓名与数量，最多 5 人，其余折叠）；并修复「🔧 剩余可借」数字不准——改由云端按「合并后总库存 − 未归还合计」统一重算，与 App 内工具借还口径一致。②修复基础设置中「默认库管」名称修改无效：此前误写入死键，业务经手人默认读的是另一活键，现已统一为活键并迁移旧值，改名即时生效、三端一致。数据由安卓端推送，需升到 v11.22 后同步方可生效。四端一致，覆盖安装即可，业务数据不丢失。"
 }
