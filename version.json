@@ -1,10 +1,10 @@
 {
-  "versionCode": 147,
-  "versionName": "11.23",
-  "apkUrl": "https://ijw90000.github.io/daming-wms-release/daming-warehouse-v11.23.apk",
+  "versionCode": 148,
+  "versionName": "11.25",
+  "apkUrl": "https://ijw90000.github.io/daming-wms-release/daming-warehouse-v11.25.apk",
   "pageUrl": "https://ijw90000.github.io/daming-wms-release/",
-  "size": 6166840,
-  "sha256": "3f18ed4dfd83029099242de10e6cf77b42232df5ea2c1d55802f27d7089e5ae0",
-  "date": "2026-10-20",
-  "changelog": "v11.23：①全面提速——数据库补齐查询索引，首页统计改后台计算，台账列表 / 搜索结果 / 选物资弹窗改为一次性批量取数（原来每行都要查库），物资档案改为分批渲染，台账数据多时不再卡顿；②修复首页趋势图把全部历史日期都画进最近 7 天的问题；③安全加固——业务办理、库存盘点、物资主数据、数据管理等页面增加页面级权限校验，低权限账号无法再绕过入口直接进入。四端一致，覆盖安装即可，业务数据不丢失。"
+  "size": 6168436,
+  "sha256": "a9982e178a07537696e1c081724ff462ab75eec2e973cd4e8aada915758909c2",
+  "date": "2026-10-22",
+  "changelog": "v11.25：修复底层资源泄漏——①云端请求（登录/注册/用户管理/预警推送/档案推送）在超时或响应中途断流时不断开连接，socket 与文件句柄慢性泄漏，物资档案定时推送反复重试会累积到「App 突然连不上账号服务器」；②切换语言下载语言包、读写语言包缓存同样未在异常路径关闭文件句柄，且缓存只读一次可能被截断成坏 JSON；③顺带修掉更新日志读取、图片压缩、导入文件读取三处同类问题。现全部改为 try-with-resources + finally disconnect。界面与功能无变化，四端一致，覆盖安装即可，业务数据不丢失。"
 }
